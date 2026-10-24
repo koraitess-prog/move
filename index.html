@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="MOTION ATLAS — a study of the body, movement, and temporal imprint." />
+    <link rel="icon" href="data:," />
+    <title>MOTION ATLAS</title>
+  </head>
+  <body>
+    <canvas id="imprint" aria-label="Image-derived internal topographic contours and accumulated motion on black."></canvas>
+    <main class="shell">
+      <header><h1>MOTION ATLAS</h1><p>BODY / TIME / IMPRINT</p></header>
+      <footer>
+        <p id="status" role="status" aria-live="polite">MOTION IMPRINT — CAMERA OFF</p>
+        <button id="camera-toggle" type="button">ENABLE CAMERA</button>
+        <button id="start-again" type="button" hidden>START AGAIN</button>
+        <button id="retry-save" type="button" hidden>RETRY SAVE</button>
+        <p class="note">Camera processed on this device. No footage is displayed, recorded, or uploaded.</p>
+        <p class="note">Move to begin a 5-second imprint. Completed artwork is saved in this browser.</p>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
